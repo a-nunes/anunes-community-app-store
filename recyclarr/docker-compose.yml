@@ -8,7 +8,7 @@ services:
     container_name: recyclarr_app_proxy_1
 
   server:
-    image: ghcr.io/recyclarr/recyclarr:latest
+    image: ghcr.io/recyclarr/recyclarr:7.4.1@sha256:759540877f95453eca8a26c1a93593e783a7a824c324fbd57523deffb67f48e1
     container_name: recyclarr_server_1
     user: 1000:1000
     volumes:
