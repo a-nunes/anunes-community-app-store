@@ -2,7 +2,7 @@ version: "3.8"
 services:
   app_proxy:
     environment:
-      APP_HOST: recyclarr_server_1
+      APP_HOST: anunes-recyclarr_server_1
       APP_PORT: 8787
       PROXY_AUTH_ADD: "false"
     container_name: recyclarr_app_proxy_1
