@@ -3,7 +3,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: recyclarr_server_1
-      APP_PORT: 8080
+      APP_PORT: 8787
       PROXY_AUTH_ADD: "false"
     container_name: recyclarr_app_proxy_1
 
@@ -13,8 +13,4 @@ services:
     user: 1000:1000
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
-    environment:
-      - TZ=America/Santiago
-    ports:
-      - "8787:8787"
     restart: on-failure
