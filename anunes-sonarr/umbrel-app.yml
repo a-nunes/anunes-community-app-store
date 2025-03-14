@@ -2,7 +2,7 @@ manifestVersion: 1
 id: anunes-sonarr
 name: Sonarr
 tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
+icon: https://i.imgur.com/6LGEKlQ.png
 category: Media
 version: "1.0.0"
 port: 9090
