@@ -11,6 +11,8 @@ services:
     image: lscr.io/linuxserver/sonarr:4.0.13@sha256:49a8e636fd4514b23d37c84660101fecbb632174ba0569e0f09bbd2659a2a925
     container_name: anunes-sonarr_server_1
     user: 1000:1000
+    ports:
+      - 9090:8989
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - /mnt/anunes/downloads:/downloads
